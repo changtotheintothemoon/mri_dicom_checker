@@ -15,7 +15,6 @@ A simple command‑line tool to extract ZIP or CAB archives, sanitize DICOM file
 7. [Example](#example)
 8. [Cleanup & Temp Files](#cleanup--temp-files)
 9. [Contributing](#contributing)
-10. [License](#license)
 
 ---
 
