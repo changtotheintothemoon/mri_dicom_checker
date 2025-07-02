@@ -110,8 +110,3 @@ The script uses a random temp directory (via Python’s `tempfile`) that is auto
 1. Fork the repo and create a feature branch.
 2. Write tests (if adding features).
 3. Submit a pull request with a clear description.
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
