@@ -1,4 +1,5 @@
-# mri_dicom_checker
+# DICOM Archive Validator
+
 A simple command‑line tool to extract ZIP or CAB archives, sanitize DICOM filenames, test each file’s integrity with `dcmftest`, and output CSVs of valid and corrupt files.
 
 ---
@@ -49,11 +50,18 @@ A simple command‑line tool to extract ZIP or CAB archives, sanitize DICOM file
    source venv/bin/activate
    ```
 
-3. Install any Python dependencies (standard library only for this script):
+3. Install the required Python dependencies (none beyond the standard library):
 
    ```bash
    pip install --upgrade pip
-   # No extra packages needed
+   # No additional Python packages needed
+   ```
+
+4. Install external tools via Homebrew (macOS):
+
+   ```bash
+   brew install cabextract
+   brew install dcmtk
    ```
 
 ## Usage
